@@ -1,0 +1,7 @@
+def f(x):
+  f_x= -x/3 -10
+  return f_x
+
+  y=(10)
+
+print(y)
