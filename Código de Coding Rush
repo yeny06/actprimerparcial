@@ -1,0 +1,9 @@
+import random
+def funcion_cambio():
+  numero_aleatorio = random.randint (1,100)
+  print ("Hola el precio sería",numero_aleatorio, "$, favor de ingresar el billete")
+  billete = input()
+  operacion = int(billete)- numero_aleatorio
+  print("Tu cambio es:",operacion,)
+  
+funcion_cambio()
