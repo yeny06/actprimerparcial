@@ -1,0 +1,9 @@
+def temperatura():
+  print("Ingresar la temperatura en grados Celcius")
+  temperatura= input()
+  operacionf = (int(temperatura)*1.8) +32
+  operacionk = int (temperatura) + 273.15
+  print("La temperatura en Farenheit es:",operacionf)
+  print("La temperatura en Kelvin es:",operacionk)
+  
+temperatura()
