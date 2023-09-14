@@ -1,0 +1,15 @@
+def promedio():
+  print("Ingresar nota de la priera materia")
+  nota1= input()
+  print("Ingresar nota de la segunda materia")
+  nota2= input()
+  print("Ingresar nota de la tercera materia")
+  nota3= input()
+  promedio= (int(nota1)+int(nota2)+int(nota3))/3
+  print("El promedio de notas es:",promedio)
+  if promedio <= 5 :
+    print("Reprobado")
+  else :
+    print("Aprobado")  
+
+promedio()
