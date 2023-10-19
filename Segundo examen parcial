@@ -1,0 +1,12 @@
+dia= input("Ingrese el día de la semana: ")
+hora= int(input("Ingrese la hora actual en formato de 24horas: "))
+tarea= input("Ingrese el tipo de tarea; puede ser estudio, deportes, descanso o trabajo: ")
+
+if hora>1 and hora<=5:
+  print("Debe estar dormido")
+elif hora>5 and hora<14:
+  print("Debe estar en clase")
+elif hora>14 and hora<22:
+  print("Puedes hacer tarea")
+  if hora>18 and hora<22 and tarea=="descanso":
+    print("Ademas de tomar una siesta puedes comenzar a realizar tus tareas")
